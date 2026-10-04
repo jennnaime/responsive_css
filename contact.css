@@ -1,0 +1,164 @@
+body {
+    background-color:#fdedef;
+    font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.help{
+    text-align:left;
+}
+
+.helptext{
+    margin-left: 70px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 60px;
+
+}
+
+
+.section1-text {
+    width: 500px;
+}
+
+.button{
+    padding: 20px;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+}
+
+.picture img {
+    width: 600px;
+    height: auto;
+
+}
+
+.card {
+    background-color: azure;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    min-height: 200px;
+
+    
+}
+
+.card img{
+    width: 400px;
+    height: auto;
+    margin-top: -90px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px;
+    margin-left: 70px;
+    height: 400px;
+    
+}
+
+.blue-mac{
+    width: 320px;
+    transform: translateY(-20px);
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 30px;
+    background-color: #e3e4e5 ;
+    border-radius: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid black;
+
+}
+
+.form-text{
+    margin: 30px;
+    width: 45%;
+    
+}
+
+.form{
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
+    width:45%;
+    
+}
+
+.input{
+    padding:15px;
+    border-radius: 10px;
+    border: 1px solid ;
+
+}
+
+.message{
+    padding: 15px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+
+.submit{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.faq{
+    padding: 60px;
+    align-items:center;
+    margin-left: 40px;
+
+}
+.faqtext{
+    border-top: 1px solid black;
+    padding: 15px;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    padding: 35px 40px;
+    background-color: #e3e4e5 ;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+
+.info1{
+    width: 35%;
+}
+
+.info1 p{
+    margin: 0;
+}
+.info1 h2{
+    margin: 10px 0 0 0;
+}
+.info2{
+   width:30%;
+   border-left: 1px solid black;
+   padding-left: 40px;
+}
+
+.info h2{
+    font-size: 30px;
+    margin: 10px 0 0 ;
+}
